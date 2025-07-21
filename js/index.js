@@ -12,7 +12,7 @@ import {
 import { showError, removeError } from "./error.js";
 import saveHistory, { displayHistory } from "./history.js";
 
-let history = []; // 제곱 연산용 history
+let history = []; // 제곱 연산 및 기록 표시용 history
 let currentInput = "";
 let firstNumber = null;
 let operator = null;
