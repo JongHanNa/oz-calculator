@@ -147,10 +147,31 @@
                         +
                     </button>
                 </div>
+                <div class="col-3">
+                    <button
+                        class="btn btn-warning calc-btn w-100"
+                        onclick="setOperator('^')"
+                    >
+                        ^
+                    </button>
+                </div>
             </div>
             <div id="result" class="alert alert-info result-alert d-none"></div>
             <!-- 계산 기록 표시 영역 -->
-            <div id="history" class="mt-3"></div>
+            <div class="row g-2 mt-2">
+                <div class="col-12">
+                    <button
+                        class="btn btn-info calc-btn w-100"
+                        onclick="displayHistory()"
+                    >
+                        기록 표시
+                    </button>
+                </div>
+            </div>
+            <div
+                id="history"
+                class="alert alert-secondary result-alert d-none"
+            ></div>
             <div class="row g-2 mt-2">
                 <div class="col-6">
                     <button
@@ -178,6 +199,6 @@
             integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
             crossorigin="anonymous"
         ></script>
-        <script src="calculator.js"></script>
+        <script src="js/main.js" type="module"></script>
     </body>
 </html>
