@@ -1,9 +1,8 @@
-import {
+import calculate, {
     handleAppendNumber,
     handleSetOperator,
     handleAppendDot,
     handleSubDisplay,
-    calculate,
     displayHistory as showHistory,
     VALID_NUMBERS,
     VALID_OPERATORS,
